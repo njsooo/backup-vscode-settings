@@ -1,0 +1,23 @@
+{
+  "name": "backup-vscode-settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "pkg ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^5.5.1"
+  },
+  "bin": "src/index.js",
+  "pkg": {
+    "script": "src/index.js",
+    "outputPath": "dist",
+    "targets": [
+      "node16-win-x64"
+    ]
+  }
+}
